@@ -63,10 +63,6 @@ namespace DrugPreventionSystem.DataAccess.Models
 
         // Navigation property
         public virtual User User { get; set; } = null!;
-        // THÊM: Một Consultant có thể có nhiều TimeSlot
-        public virtual ICollection<TimeSlot> TimeSlots { get; set; } = new List<TimeSlot>();
-        // THÊM: Một Consultant có thể có nhiều Appointment (nơi họ là người tư vấn)
-        public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
 
     }
 }

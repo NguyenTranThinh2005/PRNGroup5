@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj",
-      "projectName": "BusinessLogic",
-      "projectPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj",
+      "projectUniqueName": "D:\\FPTU\\SemesterV\\ProjectPRN\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\THINH\\.nuget\\packages\\",
-      "outputPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\obj\\",
+      "outputPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

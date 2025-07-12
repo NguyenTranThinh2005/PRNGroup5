@@ -7,6 +7,7 @@ using DrugPreventionSystem.DataAccess.Context;
 using DrugPreventionSystem.DataAccess.Models;
 using DrugPreventionSystem.DataAccess.Repository.Interfaces.IQuizzes;
 using Microsoft.EntityFrameworkCore;
+using Models.Quizzes;
 
 namespace DrugPreventionSystem.DataAccess.Repository.Quizzes
 {

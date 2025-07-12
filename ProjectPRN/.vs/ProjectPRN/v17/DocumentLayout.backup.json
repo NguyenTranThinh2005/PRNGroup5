@@ -3,16 +3,108 @@
   "WorkspaceRootPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\courseweekrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\courseweekrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\surveyquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\surveyquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\programparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\programparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|d:\\fptu\\semesterv\\projectprn\\models\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|solutionrelative:models\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|d:\\fptu\\semesterv\\projectprn\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|solutionrelative:models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\users\\usercourseenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\users\\usercourseenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\users\\usermodulequizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\users\\usermodulequizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\users\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\users\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\users\\userquizanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\users\\userquizanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\users\\usersurveyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\users\\usersurveyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\consultant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\consultant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\surveys\\surveyquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\surveys\\surveyquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\users\\userlessonprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\users\\userlessonprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\lessonresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\lessonresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\practiceexercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\practiceexercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\models\\programparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\BusinessLogic.csproj|solutionrelative:models\\programparticipant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\quizzes\\quizoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\quizzes\\quizoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40373080-FD77-48AE-A300-26441B30ECAF}|Services\\Services.csproj|d:\\fptu\\semesterv\\projectprn\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40373080-FD77-48AE-A300-26441B30ECAF}|Services\\Services.csproj|solutionrelative:services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\interfaces\\iprogramparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\interfaces\\iprogramparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\user\\userlessonprogressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\user\\userlessonprogressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\user\\usercourseenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\user\\usercourseenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\programfeedbackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +113,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\practiceexerciserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\practiceexerciserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\programparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\programparticipantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\lessonresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,40 +131,20 @@
       "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\instructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\courseweekrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\courseweekrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\coursecertificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\coursecertificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\consultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\consultantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\communityprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\communityprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9254387C-D8BC-4E0B-9CFD-DBFDA1A19C09}|BusinessLogic\\BusinessLogic.csproj|d:\\fptu\\semesterv\\projectprn\\businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9254387C-D8BC-4E0B-9CFD-DBFDA1A19C09}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|d:\\fptu\\semesterv\\projectprn\\models\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|solutionrelative:models\\courses\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|d:\\fptu\\semesterv\\projectprn\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|solutionrelative:models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\surveyquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\surveyquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|d:\\fptu\\semesterv\\projectprn\\models\\quizzes\\quizoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,18 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|d:\\fptu\\semesterv\\projectprn\\models\\surveys\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|solutionrelative:models\\surveys\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|d:\\fptu\\semesterv\\projectprn\\models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201C5468-6D7E-46B1-BC67-AE9BF37084CA}|Models\\Models.csproj|solutionrelative:models\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\user\\usercourseenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\user\\usercourseenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|d:\\fptu\\semesterv\\projectprn\\repository\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}|Repository\\DataAccess.csproj|solutionrelative:repository\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5330FFB-654C-48BE-BDB9-1834EB24952E}|ProjectPRN\\Presentation.csproj|d:\\fptu\\semesterv\\projectprn\\projectprn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,132 +170,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserCourseEnrollment.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserCourseEnrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\UserCourseEnrollment.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserCourseEnrollment.cs",
+              "RelativeToolTip": "Models\\Users\\UserCourseEnrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:54:13.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\UserProfile.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserProfile.cs",
+              "RelativeToolTip": "Models\\Users\\UserProfile.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvzwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:54:03.689Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SurveyQuestionRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\SurveyQuestionRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\SurveyQuestionRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\SurveyQuestionRepository.cs",
-              "RelativeToolTip": "Repository\\SurveyQuestionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:56:50.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SurveyRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\SurveyRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\SurveyRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\SurveyRepository.cs",
-              "RelativeToolTip": "Repository\\SurveyRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:56:45.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProgramParticipantRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ProgramParticipantRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProgramParticipantRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ProgramParticipantRepository.cs",
-              "RelativeToolTip": "Repository\\ProgramParticipantRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:56:37.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProgramFeedbackRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ProgramFeedbackRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProgramFeedbackRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ProgramFeedbackRepository.cs",
-              "RelativeToolTip": "Repository\\ProgramFeedbackRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:56:31.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PracticeExerciseRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\PracticeExerciseRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\PracticeExerciseRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\PracticeExerciseRepository.cs",
-              "RelativeToolTip": "Repository\\PracticeExerciseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\User.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\User.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\User.cs",
+              "RelativeToolTip": "Models\\Users\\User.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwvzQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:56:30.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LessonResourceRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\LessonResourceRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\LessonResourceRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\LessonResourceRepository.cs",
-              "RelativeToolTip": "Repository\\LessonResourceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:56:30.307Z",
+              "WhenOpened": "2025-07-03T05:49:41.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LessonRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\LessonRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\LessonRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\LessonRepository.cs",
-              "RelativeToolTip": "Repository\\LessonRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserModuleQuizResult.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserModuleQuizResult.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\UserModuleQuizResult.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserModuleQuizResult.cs",
+              "RelativeToolTip": "Models\\Users\\UserModuleQuizResult.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:56:29.754Z",
+              "WhenOpened": "2025-07-12T15:54:06.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InstructorRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\InstructorRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\InstructorRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\InstructorRepository.cs",
-              "RelativeToolTip": "Repository\\InstructorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Courses\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Courses\\Course.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Courses\\Course.cs",
+              "RelativeToolTip": "Models\\Courses\\Course.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAA0wEQAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T15:56:29.188Z",
+              "WhenOpened": "2025-07-03T05:52:01.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "DataAccess.csproj",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "Repository\\DataAccess.csproj",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\DataAccess.csproj",
+              "RelativeToolTip": "Repository\\DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-03T05:34:44.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CourseWeekRepository.cs",
               "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\CourseWeekRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CourseWeekRepository.cs",
               "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\CourseWeekRepository.cs",
               "RelativeToolTip": "Repository\\CourseWeekRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T15:56:28.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "CourseRepository.cs",
               "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\CourseRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CourseRepository.cs",
@@ -244,7 +282,319 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserQuizAnswer.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserQuizAnswer.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\UserQuizAnswer.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserQuizAnswer.cs",
+              "RelativeToolTip": "Models\\Users\\UserQuizAnswer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:54:00.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "UserSurveyResponse.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserSurveyResponse.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\UserSurveyResponse.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserSurveyResponse.cs",
+              "RelativeToolTip": "Models\\Users\\UserSurveyResponse.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCgAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:53:52.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Consultant.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Consultant.cs",
+              "RelativeDocumentMoniker": "Models\\Consultant.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Consultant.cs",
+              "RelativeToolTip": "Models\\Consultant.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:46:58.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Models.csproj",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj",
+              "RelativeDocumentMoniker": "Models\\BusinessLogic.csproj",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj",
+              "RelativeToolTip": "Models\\BusinessLogic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-03T05:49:01.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SurveyQuestion.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Surveys\\SurveyQuestion.cs",
+              "RelativeDocumentMoniker": "Models\\Surveys\\SurveyQuestion.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Surveys\\SurveyQuestion.cs",
+              "RelativeToolTip": "Models\\Surveys\\SurveyQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:54:28.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserLessonProgress.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserLessonProgress.cs",
+              "RelativeDocumentMoniker": "Models\\Users\\UserLessonProgress.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\UserLessonProgress.cs",
+              "RelativeToolTip": "Models\\Users\\UserLessonProgress.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:54:10.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PracticeExercise.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\PracticeExercise.cs",
+              "RelativeDocumentMoniker": "Models\\PracticeExercise.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\PracticeExercise.cs",
+              "RelativeToolTip": "Models\\PracticeExercise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:47:23.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProgramParticipant.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\ProgramParticipant.cs",
+              "RelativeDocumentMoniker": "Models\\ProgramParticipant.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\ProgramParticipant.cs",
+              "RelativeToolTip": "Models\\ProgramParticipant.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:47:32.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QuizOptionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\Quizzes\\QuizOptionRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Quizzes\\QuizOptionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\Quizzes\\QuizOptionRepository.cs",
+              "RelativeToolTip": "Repository\\Quizzes\\QuizOptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:46:47.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Repository\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAADwv1MAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T05:09:53.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LessonResource.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\LessonResource.cs",
+              "RelativeDocumentMoniker": "Models\\LessonResource.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\LessonResource.cs",
+              "RelativeToolTip": "Models\\LessonResource.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:47:20.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "Models\\Lesson.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Lesson.cs",
+              "RelativeToolTip": "Models\\Lesson.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:47:17.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "Models\\Instructor.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Instructor.cs",
+              "RelativeToolTip": "Models\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:46:59.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\Interfaces\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\ICourseRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\Interfaces\\ICourseRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:51:58.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IProgramParticipantRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\Interfaces\\IProgramParticipantRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IProgramParticipantRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\Interfaces\\IProgramParticipantRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IProgramParticipantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:51:13.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Services\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\Class1.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Services\\Class1.cs",
+              "RelativeToolTip": "Services\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:45:49.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserLessonProgressRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\User\\UserLessonProgressRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\User\\UserLessonProgressRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\User\\UserLessonProgressRepository.cs",
+              "RelativeToolTip": "Repository\\User\\UserLessonProgressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:46:41.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LessonResourceRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\LessonResourceRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\LessonResourceRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\LessonResourceRepository.cs",
+              "RelativeToolTip": "Repository\\LessonResourceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:56:30.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProgramParticipantRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ProgramParticipantRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProgramParticipantRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ProgramParticipantRepository.cs",
+              "RelativeToolTip": "Repository\\ProgramParticipantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:56:37.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProgramFeedbackRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ProgramFeedbackRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProgramFeedbackRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ProgramFeedbackRepository.cs",
+              "RelativeToolTip": "Repository\\ProgramFeedbackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:56:31.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PracticeExerciseRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\PracticeExerciseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PracticeExerciseRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\PracticeExerciseRepository.cs",
+              "RelativeToolTip": "Repository\\PracticeExerciseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:56:30.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserCourseEnrollmentRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\User\\UserCourseEnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\User\\UserCourseEnrollmentRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\User\\UserCourseEnrollmentRepository.cs",
+              "RelativeToolTip": "Repository\\User\\UserCourseEnrollmentRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswBcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T05:48:05.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LessonRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\LessonRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\LessonRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\LessonRepository.cs",
+              "RelativeToolTip": "Repository\\LessonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:56:29.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InstructorRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\InstructorRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\InstructorRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\InstructorRepository.cs",
+              "RelativeToolTip": "Repository\\InstructorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T15:56:29.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "CourseCertificateRepository.cs",
               "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\CourseCertificateRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CourseCertificateRepository.cs",
@@ -257,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 33,
               "Title": "ConsultantRepository.cs",
               "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ConsultantRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ConsultantRepository.cs",
@@ -270,32 +620,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CommunityProgramRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\CommunityProgramRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CommunityProgramRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\CommunityProgramRepository.cs",
-              "RelativeToolTip": "Repository\\CommunityProgramRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "SurveyRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\SurveyRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SurveyRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\SurveyRepository.cs",
+              "RelativeToolTip": "Repository\\SurveyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T01:03:35.137Z",
+              "WhenOpened": "2025-07-07T15:56:45.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Course.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Courses\\Course.cs",
-              "RelativeDocumentMoniker": "Models\\Courses\\Course.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Courses\\Course.cs",
-              "RelativeToolTip": "Models\\Courses\\Course.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "SurveyQuestionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\SurveyQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SurveyQuestionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\SurveyQuestionRepository.cs",
+              "RelativeToolTip": "Repository\\SurveyQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:52:01.884Z"
+              "WhenOpened": "2025-07-07T15:56:50.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 36,
               "Title": "QuizOption.cs",
               "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Quizzes\\QuizOption.cs",
               "RelativeDocumentMoniker": "Models\\Quizzes\\QuizOption.cs",
@@ -303,11 +654,12 @@
               "RelativeToolTip": "Models\\Quizzes\\QuizOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:51:31.742Z"
+              "WhenOpened": "2025-07-03T05:51:31.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 37,
               "Title": "Survey.cs",
               "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Surveys\\Survey.cs",
               "RelativeDocumentMoniker": "Models\\Surveys\\Survey.cs",
@@ -315,95 +667,24 @@
               "RelativeToolTip": "Models\\Surveys\\Survey.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:50:39.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\User.cs",
-              "RelativeDocumentMoniker": "Models\\Users\\User.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Users\\User.cs",
-              "RelativeToolTip": "Models\\Users\\User.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:49:41.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Models.csproj",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj",
-              "RelativeDocumentMoniker": "Models\\Models.csproj",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj",
-              "RelativeToolTip": "Models\\Models.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-03T05:49:01.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserCourseEnrollmentRepository.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\User\\UserCourseEnrollmentRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\User\\UserCourseEnrollmentRepository.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\User\\UserCourseEnrollmentRepository.cs",
-              "RelativeToolTip": "Repository\\User\\UserCourseEnrollmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:48:05.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DataAccess.csproj",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\DataAccess.csproj",
-              "RelativeDocumentMoniker": "Repository\\DataAccess.csproj",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\DataAccess.csproj",
-              "RelativeToolTip": "Repository\\DataAccess.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-03T05:34:44.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Repository\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Repository\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwBYAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:09:53.105Z",
+              "WhenOpened": "2025-07-03T05:50:39.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\BusinessLogic\\Class1.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Class1.cs",
-              "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\BusinessLogic\\Class1.cs",
-              "RelativeToolTip": "BusinessLogic\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:33:01.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\ProjectPRN\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\MainWindow.xaml",
               "ToolTip": "D:\\FPTU\\SemesterV\\ProjectPRN\\ProjectPRN\\MainWindow.xaml",
               "RelativeToolTip": "ProjectPRN\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-03T05:07:58.616Z"
+              "WhenOpened": "2025-07-03T05:07:58.616Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 38,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPTU\\SemesterV\\ProjectPRN\\ProjectPRN\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\MainWindow.xaml.cs",
@@ -411,7 +692,8 @@
               "RelativeToolTip": "ProjectPRN\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T05:07:56.695Z"
+              "WhenOpened": "2025-07-03T05:07:56.695Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DrugPreventionSystem.DataAccess.Models;
+using Models.Courses;
 
 namespace DrugPreventionSystem.DataAccess.Repository.Interfaces
 {

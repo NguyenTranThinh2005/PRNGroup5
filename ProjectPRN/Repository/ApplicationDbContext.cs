@@ -50,12 +50,8 @@ namespace DrugPreventionSystem.DataAccess.Context
         public DbSet<SurveyCourseRecommendation> SurveyCourseRecommendations { get; set; } = null!;
         public DbSet<UserResponseCourseRecommendation> UserResponseCourseRecommendations { get; set; } = null!;
         public DbSet<UserCourseEnrollment> UserCourseEnrollments { get; set; } = null!;
-        public DbSet<CommunityProgram> CommunityPrograms { get; set; } = null!;
         public DbSet<ProgramParticipant> ProgramParticipants { get; set; } = null!;
         public DbSet<ProgramFeedback> ProgramFeedbacks { get; set; } = null!;
-        public DbSet<TimeSlot> TimeSlots { get; set; } = null!;
-        public DbSet<Appointment> Appointments { get; set; } = null!;
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -86,16 +82,6 @@ namespace DrugPreventionSystem.DataAccess.Context
             modelBuilder.Entity<User>()
             .HasIndex(u => u.Username)
                 .IsUnique();
-
-            // Configure decimal precision
-            modelBuilder.Entity<Consultant>()
-                .Property(c => c.ConsultationFee)
-                .HasColumnType("decimal(10,2)");
-
-            modelBuilder.Entity<Consultant>()
-                .Property(c => c.Rating)
-                .HasColumnType("decimal(3,2)");
-
             // Survey có nhiều SurveyQuestions
             modelBuilder.Entity<SurveyQuestion>()
                 .HasOne(sq => sq.Survey)

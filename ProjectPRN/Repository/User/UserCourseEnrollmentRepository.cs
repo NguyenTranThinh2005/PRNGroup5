@@ -2,6 +2,7 @@ using DrugPreventionSystem.DataAccess.Context;
 using DrugPreventionSystem.DataAccess.Models;
 using DrugPreventionSystem.DataAccess.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Models.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;

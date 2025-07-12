@@ -193,14 +193,14 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Models/1.0.0": {
+      "BusinessLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/BusinessLogic.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/BusinessLogic.dll": {}
         }
       }
     }
@@ -541,16 +541,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Models/1.0.0": {
+    "BusinessLogic/1.0.0": {
       "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
+      "path": "../Models/BusinessLogic.csproj",
+      "msbuildProject": "../Models/BusinessLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.EntityFrameworkCore >= 9.0.6",
-      "Models >= 1.0.0"
+      "BusinessLogic >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 9.0.6"
     ]
   },
   "packageFolders": {
@@ -585,8 +585,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj": {
-              "projectPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj"
+            "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj": {
+              "projectPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj"
             }
           }
         }

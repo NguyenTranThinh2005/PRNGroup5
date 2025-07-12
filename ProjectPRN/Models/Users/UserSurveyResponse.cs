@@ -39,8 +39,6 @@ namespace Models.Users
         public virtual User User { get; set; } = null!;
         public virtual Survey Survey { get; set; } = null!;
         public virtual ICollection<UserSurveyAnswer> UserSurveyAnswers { get; set; } = new List<UserSurveyAnswer>();
-
-        public virtual ICollection<UserResponseCourseRecommendation> UserResponseCourseRecommendations { get; set; } = new List<UserResponseCourseRecommendation>();
     }
 }
 

@@ -34,7 +34,6 @@ namespace DrugPreventionSystem.DataAccess.Models
         public bool FeedbackSubmitted { get; set; } = false; // Cờ đánh dấu đã gửi feedback hay chưa
 
         // Navigation properties
-        public virtual CommunityProgram CommunityProgram { get; set; } = null!;
         public virtual User User { get; set; } = null!; // Đảm bảo bạn đã có class User
     }
 }

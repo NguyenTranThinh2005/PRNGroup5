@@ -4,12 +4,12 @@
     "D:\\FPTU\\SemesterV\\ProjectPRN\\Repository\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj": {
+    "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj",
-        "projectName": "Models",
-        "projectPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj",
+        "projectName": "BusinessLogic",
+        "projectPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\THINH\\.nuget\\packages\\",
         "outputPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj": {
-                "projectPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\Models.csproj"
+              "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj": {
+                "projectPath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj"
               }
             }
           }
