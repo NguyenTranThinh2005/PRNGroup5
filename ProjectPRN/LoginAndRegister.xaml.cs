@@ -16,9 +16,7 @@ using System.Windows.Shapes;
 
 namespace Presentation
 {
-    /// <summary>
-    /// Interaction logic for LoginAndRegister.xaml
-    /// </summary>
+   
     public partial class LoginAndRegister : Window
     {
         private readonly IUserServices _userService;
