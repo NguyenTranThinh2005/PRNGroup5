@@ -2,6 +2,7 @@
 using DrugPreventionSystem.DataAccess.Models;
 using DrugPreventionSystem.DataAccess.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +29,7 @@ namespace DataAccess.User
         public async Task DeleteUserAsync(Guid id)
         {
             var user = await _context.Users.FindAsync(id);
-            if(user != null)
+            if (user != null)
             {
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
@@ -76,6 +77,54 @@ namespace DataAccess.User
         {
             _context.Users.Update(user);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<User> Checklogin(string email, string password)
+        {
+
+            User exitingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+
+            if (exitingUser == null)
+            {
+                return null;
+            }
+           // check the password user input and the hashpassword in the database are the same ??
+            bool isPasswordValid = BCrypt.Net.BCrypt.Verify(password, exitingUser.PasswordHash);
+
+            if (isPasswordValid)
+            {
+
+                return exitingUser;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public async Task<User> RegisterNewUser(User newUser, string confirmPassword)
+        {
+            if (newUser == null)
+            {
+                return null;
+            }
+
+            bool checkEmail = await _context.Users.AnyAsync(u => u.Email == newUser.Email);
+
+            if (checkEmail) {
+                throw new ArgumentException("Email already exists.");
+            }
+
+            if (newUser.PasswordHash != confirmPassword)
+            {
+                throw new ArgumentException("Passwords do not match.");
+            }
+            // after checking confirm password , then hash the password
+            newUser.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newUser.PasswordHash);
+
+            await _context.Users.Add(newUser);
+            _context.SaveChangesAsync();
+            return newUser;
         }
     }
 }

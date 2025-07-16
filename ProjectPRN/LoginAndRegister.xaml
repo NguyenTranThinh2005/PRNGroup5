@@ -1,0 +1,45 @@
+﻿<Window x:Class="Presentation.LoginAndRegister"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation"
+        mc:Ignorable="d"
+        Title="LoginAndRegister" Height="450" Width="800">
+    <Grid Background="#f0f4f8">
+        <Border Background="White" Width="400" Height="400"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                CornerRadius="10" Padding="30">
+            <StackPanel>
+                <TextBlock Text="CỔNG ĐĂNG NHẬP"
+                           FontSize="22" FontWeight="Bold"
+                           Foreground="#2A4365" TextAlignment="Center"
+                           Margin="0,0,0,10"/>
+                <TextBlock Text="Sống khỏe - Nói không với ma túy"
+                           FontSize="14" FontStyle="Italic"
+                           Foreground="Gray" TextAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <TextBlock Text="Email" Margin="0,0,0,5"/>
+                <TextBox x:Name="EmailBox" Height="35" Margin="0,0,0,10"/>
+
+                <TextBlock Text="Mật khẩu" Margin="0,10,0,5"/>
+                <PasswordBox x:Name="PasswordBox" Height="35"/>
+
+                <Button Content="Đăng nhập"
+                        Background="#2A4365" Foreground="White"
+                        FontWeight="Bold" Height="35" Margin="0,20,0,0"
+                        Click="LoginButton_Click"/>
+
+                <TextBlock HorizontalAlignment="Center" FontSize="12">
+                    <Run Text="Chưa có tài khoản? " Foreground="Gray"/>
+                    <Run Text="Đăng ký ngay"
+                     Foreground="#2A4365"
+                     TextDecorations="Underline"
+                     Cursor="Hand"
+                        MouseDown="RegisterText_MouseDown"/>
+                </TextBlock>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -19,5 +19,7 @@ namespace Services.Interfaces
         Task<Role?> GetRoleByIdAsync(int roleId);
         Task<Role?> GetRoleByNameAsync(string roleName);
         Task<IEnumerable<Role>> GetSpecificRolesAsync(params string[] roleNames);
+        Task<User> Checklogin(string email, string PasswordHash);
+        Task<User> RegisterNewUser(User newUser, string confirmPassword);
     }
 }

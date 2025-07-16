@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
 using DrugPreventionSystem.DataAccess.Models;
+using DrugPreventionSystem.DataAccess.Repositories.Interfaces;
 using Models.Users;
+using Services.Interfaces;
 
 namespace Services.Implementations
 {
@@ -65,6 +67,15 @@ namespace Services.Implementations
         public async Task<IEnumerable<Role>> GetSpecificRolesAsync(params string[] roleNames)
         {
             return await _repository.GetSpecificRolesAsync(roleNames);
+        }
+
+        public async Task<User> Checklogin(string email, string PasswordHash)
+        {
+            return await _repository.Checklogin(email, PasswordHash);
+        }
+        public async Task<User> RegisterNewUser(User newUser, string confirmPassword)
+        {
+           return await _repository.RegisterNewUser(newUser, confirmPassword);
         }
     }
 }
