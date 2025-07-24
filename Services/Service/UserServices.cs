@@ -73,9 +73,13 @@ namespace Services.Implementations
         {
             return await _repository.Checklogin(email, PasswordHash);
         }
-        public async Task<User> RegisterNewUser(User newUser, string confirmPassword)
+        public async Task<Models.Users.User> RegisterNewUser(Models.Users.User newUser, string confirmPassword)
         {
-           return await _repository.RegisterNewUser(newUser, confirmPassword);
+            return await _repository.RegisterNewUser(newUser, confirmPassword);
+        }
+        public bool IsValidEmail(string email)
+        {
+            return _repository.IsValidEmail(email);
         }
     }
 }

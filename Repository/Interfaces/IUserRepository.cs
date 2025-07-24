@@ -22,5 +22,7 @@ namespace DrugPreventionSystem.DataAccess.Repositories.Interfaces
         Task<IEnumerable<Role>> GetSpecificRolesAsync(params string[] roleNames);
         Task<User> Checklogin(string email, string PasswordHash);
         Task<User> RegisterNewUser(User newUser, string confirmPassword);
+
+        public bool IsValidEmail(string email);
     }
 }

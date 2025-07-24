@@ -1,4 +1,5 @@
-﻿using Models.Users;
+﻿using UserModel = Models.Users.User;
+
 using Services.Implementations;
 using Services.Interfaces;
 using System;
@@ -33,24 +34,57 @@ namespace Presentation
         {
             try
             {
-                string username = UsernameBox.Text;
-                string email = EmailBox.Text;
+                string username = UsernameBox.Text.Trim();
+                string email = EmailBox.Text.Trim();
                 string password = PasswordBox.Password;
                 string confirmPassword = ConfirmPasswordBox.Password;
                 bool isActive = true;
                 DateTime createdAt = DateTime.Now;
 
-                User newUser = new User
+                // Input validation
+                if (string.IsNullOrWhiteSpace(username))
+                {
+                    MessageBox.Show("Username is required.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (string.IsNullOrWhiteSpace(email))
+                {
+                    MessageBox.Show("Email is required.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (!_userService.IsValidEmail(email))
+                {
+                    MessageBox.Show("Invalid email format.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (string.IsNullOrWhiteSpace(password) || password.Length < 6)
+                {
+                    MessageBox.Show("Password must be at least 6 characters long.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (password != confirmPassword)
+                {
+                    MessageBox.Show("Passwords do not match.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                Models.Users.User newUser = new Models.Users.User
                 {
                     Username = username,
-                    Email = email,
+                    Email = email.ToLower(),
                     PasswordHash = password,
                     IsActive = isActive,
+                    RoleId = 4,// customer role
                     CreatedAt = createdAt
                 };
 
-                var checkRegister = await _userService.RegisterNewUser(newUser, confirmPassword);
-                if (checkRegister != null)
+                var registeredUser = await _userService.RegisterNewUser(newUser, confirmPassword);
+
+                if (registeredUser != null)
                 {
                     MessageBox.Show("Registration successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                     this.Close();
@@ -60,9 +94,14 @@ namespace Presentation
                     MessageBox.Show("Registration failed. Please try again.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
+            catch (ArgumentException ex)
+            {
+                // Catch specific validation exceptions from RegisterNewUser
+                MessageBox.Show(ex.Message, "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
             catch (Exception ex)
-            {                
-                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            {
+                MessageBox.Show($"An unexpected error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

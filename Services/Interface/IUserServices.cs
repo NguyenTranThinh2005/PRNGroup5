@@ -20,6 +20,8 @@ namespace Services.Interfaces
         Task<Role?> GetRoleByNameAsync(string roleName);
         Task<IEnumerable<Role>> GetSpecificRolesAsync(params string[] roleNames);
         Task<User> Checklogin(string email, string PasswordHash);
-        Task<User> RegisterNewUser(User newUser, string confirmPassword);
+        Task<Models.Users.User> RegisterNewUser(User newUser, string confirmPassword);
+        public bool IsValidEmail(string email);
+      
     }
 }
