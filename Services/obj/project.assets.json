@@ -624,11 +624,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\PRNGroup5\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Services\\Services.csproj",
+      "projectPath": "D:\\PRNGroup5\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\TonTon0\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Services\\obj\\",
+      "outputPath": "D:\\PRNGroup5\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -649,11 +649,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Models\\BusinessLogic.csproj": {
-              "projectPath": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Models\\BusinessLogic.csproj"
+            "D:\\PRNGroup5\\Models\\BusinessLogic.csproj": {
+              "projectPath": "D:\\PRNGroup5\\Models\\BusinessLogic.csproj"
             },
-            "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Repository\\DataAccess.csproj": {
-              "projectPath": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Repository\\DataAccess.csproj"
+            "D:\\PRNGroup5\\Repository\\DataAccess.csproj": {
+              "projectPath": "D:\\PRNGroup5\\Repository\\DataAccess.csproj"
             }
           }
         }

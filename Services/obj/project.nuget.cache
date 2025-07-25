@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tfnk86YWO6Q=",
+  "dgSpecHash": "9UaZqiusjqA=",
   "success": true,
-  "projectFilePath": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Services\\Services.csproj",
+  "projectFilePath": "D:\\PRNGroup5\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TonTon0\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\TonTon0\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.6\\microsoft.entityframeworkcore.9.0.6.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Models\\BusinessLogic.csproj": {}
+    "D:\\PRNGroup5\\Models\\BusinessLogic.csproj": {}
   },
   "projects": {
-    "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Models\\BusinessLogic.csproj": {
+    "D:\\PRNGroup5\\Models\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Models\\BusinessLogic.csproj",
+        "projectUniqueName": "D:\\PRNGroup5\\Models\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Models\\BusinessLogic.csproj",
+        "projectPath": "D:\\PRNGroup5\\Models\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\TonTon0\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN212_Project\\PRN212_Project\\PRNGroup5\\Models\\obj\\",
+        "outputPath": "D:\\PRNGroup5\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
