@@ -78,7 +78,7 @@ namespace Presentation
                     Email = email.ToLower(),
                     PasswordHash = password,
                     IsActive = isActive,
-                    RoleId = 4,// customer role
+                    RoleId = 3,// customer role
                     CreatedAt = createdAt
                 };
 
