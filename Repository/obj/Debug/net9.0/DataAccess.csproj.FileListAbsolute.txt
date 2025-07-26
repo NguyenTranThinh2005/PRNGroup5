@@ -1,0 +1,6 @@
+D:\1\PRNGroup5\Repository\obj\Debug\net9.0\DataAccess.csproj.AssemblyReference.cache
+D:\1\PRNGroup5\Repository\obj\Debug\net9.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\1\PRNGroup5\Repository\obj\Debug\net9.0\DataAccess.AssemblyInfoInputs.cache
+D:\1\PRNGroup5\Repository\obj\Debug\net9.0\DataAccess.AssemblyInfo.cs
+D:\1\PRNGroup5\Repository\obj\Debug\net9.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\1\PRNGroup5\Repository\obj\Debug\net9.0\DataAccess.sourcelink.json

@@ -8,4 +8,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\BusinessLogic.csproj" />
+    <ProjectReference Include="..\Repository\DataAccess.csproj" />
+    <ProjectReference Include="..\Services\Services.csproj" />
+  </ItemGroup>
+
 </Project>

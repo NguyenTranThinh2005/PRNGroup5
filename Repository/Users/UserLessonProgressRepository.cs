@@ -9,7 +9,7 @@ using DrugPreventionSystem.DataAccess.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Models.Users;
 
-namespace DataAccess.User
+namespace DataAccess.Users
 {
     public class UserLessonProgressRepository : IUserLessonProgressRepository
     {

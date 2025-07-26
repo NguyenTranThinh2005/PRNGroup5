@@ -1,4 +1,5 @@
 ﻿using DrugPreventionSystem.DataAccess.Models;
+using Models.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,8 +17,11 @@ namespace DrugPreventionSystem.DataAccess.Repositories.Interfaces
         Task<User> AddUserAsync(User user);
         Task UpdateUserAsync(User user);
         Task DeleteUserAsync(Guid id);
-        Task<Role?> GetRoleByIdAsync(int roleId); 
+        Task<Role?> GetRoleByIdAsync(int roleId);
         Task<Role?> GetRoleByNameAsync(string roleName);
         Task<IEnumerable<Role>> GetSpecificRolesAsync(params string[] roleNames);
+        Task<User> Login(string email, string password);
+        Task<User> Register(User newUser);
+
     }
 }

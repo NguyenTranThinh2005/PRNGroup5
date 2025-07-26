@@ -2,13 +2,14 @@
 using DrugPreventionSystem.DataAccess.Models;
 using DrugPreventionSystem.DataAccess.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Models.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.User
+namespace DataAccess.Users
 {
     public class UserRepository : IUserRepository
     {
@@ -28,7 +29,7 @@ namespace DataAccess.User
         public async Task DeleteUserAsync(Guid id)
         {
             var user = await _context.Users.FindAsync(id);
-            if(user != null)
+            if (user != null)
             {
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
@@ -77,5 +78,25 @@ namespace DataAccess.User
             _context.Users.Update(user);
             await _context.SaveChangesAsync();
         }
+
+        public async Task<User> Login(string email, string password)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            if (user == null) return null;
+
+            bool isPasswordValid = BCrypt.Net.BCrypt.Verify(password, user.PasswordHash);
+            return isPasswordValid ? user : null;
+        }
+
+        public async Task<User> Register(User newUser)
+        {
+            newUser.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newUser.PasswordHash); 
+            newUser.CreatedAt = DateTime.UtcNow;
+
+            await _context.Users.AddAsync(newUser);
+            await _context.SaveChangesAsync(); // Quan trọng!
+            return newUser;
+        }
+
     }
 }

@@ -1,0 +1,9 @@
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\Presentation.csproj.AssemblyReference.cache
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\LoginAndRegister.g.cs
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\ProjectPRN\App.g.cs
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\ProjectPRN\MainWindow.g.cs
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\RegisterWindow.g.cs
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\App.g.cs
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\Presentation_MarkupCompile.cache
+D:\1\PRNGroup5\ProjectPRN\obj\Debug\net9.0-windows\Presentation_MarkupCompile.lref

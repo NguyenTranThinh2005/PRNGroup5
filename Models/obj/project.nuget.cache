@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ScJ0oc9NZaw=",
+  "dgSpecHash": "kTMhtTCEGgY=",
   "success": true,
-  "projectFilePath": "D:\\FPTU\\SemesterV\\ProjectPRN\\Models\\BusinessLogic.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\1\\PRNGroup5\\Models\\BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TonTon0\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
