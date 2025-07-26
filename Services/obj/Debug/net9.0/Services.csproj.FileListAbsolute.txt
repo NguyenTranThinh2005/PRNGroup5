@@ -1,0 +1,6 @@
+D:\1\PRNGroup5\Services\obj\Debug\net9.0\Services.csproj.AssemblyReference.cache
+D:\1\PRNGroup5\Services\obj\Debug\net9.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\1\PRNGroup5\Services\obj\Debug\net9.0\Services.AssemblyInfoInputs.cache
+D:\1\PRNGroup5\Services\obj\Debug\net9.0\Services.AssemblyInfo.cs
+D:\1\PRNGroup5\Services\obj\Debug\net9.0\Services.csproj.CoreCompileInputs.cache
+D:\1\PRNGroup5\Services\obj\Debug\net9.0\Services.sourcelink.json

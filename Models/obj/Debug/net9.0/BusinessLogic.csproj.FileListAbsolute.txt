@@ -1,0 +1,5 @@
+D:\1\PRNGroup5\Models\obj\Debug\net9.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\1\PRNGroup5\Models\obj\Debug\net9.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\1\PRNGroup5\Models\obj\Debug\net9.0\BusinessLogic.AssemblyInfo.cs
+D:\1\PRNGroup5\Models\obj\Debug\net9.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\1\PRNGroup5\Models\obj\Debug\net9.0\BusinessLogic.sourcelink.json

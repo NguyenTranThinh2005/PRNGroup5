@@ -1,5 +1,5 @@
 ﻿Presentation
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 D:\1\PRNGroup5\ProjectPRN\App.xaml
 5-2082071124
 
-116-1032529275
-214-1237400769
+1141311250645
+2131587546071
 LoginAndRegister.xaml;MainWindow.xaml;ProjectPRN\App.xaml;ProjectPRN\MainWindow.xaml;RegisterWindow.xaml;
 
-False
+True
 
