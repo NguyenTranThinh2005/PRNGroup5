@@ -8,7 +8,7 @@ using DrugPreventionSystem.DataAccess.Models;
 using DrugPreventionSystem.DataAccess.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace DataAccess.User
+namespace DataAccess.Users
 {
     public class UserQuizAnswerRepository : IUserQuizAnswerRepository
     {

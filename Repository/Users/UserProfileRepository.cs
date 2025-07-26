@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.User
+namespace DataAccess.Users
 {
     public class UserProfileRepository : IUserProfileRepository
     {

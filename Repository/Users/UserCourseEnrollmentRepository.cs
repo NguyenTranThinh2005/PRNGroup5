@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DataAccess.User
+namespace DataAccess.Users
 {
     public class UserCourseEnrollmentRepository : IUserCourseEnrollmentRepository
     {
