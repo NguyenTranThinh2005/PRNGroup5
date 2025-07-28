@@ -1,0 +1,5 @@
+D:\FPTU\SemesterV\ProjectPRN\Repositoires\obj\Debug\net9.0\Repositoires.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\SemesterV\ProjectPRN\Repositoires\obj\Debug\net9.0\Repositoires.AssemblyInfoInputs.cache
+D:\FPTU\SemesterV\ProjectPRN\Repositoires\obj\Debug\net9.0\Repositoires.AssemblyInfo.cs
+D:\FPTU\SemesterV\ProjectPRN\Repositoires\obj\Debug\net9.0\Repositoires.csproj.CoreCompileInputs.cache
+D:\FPTU\SemesterV\ProjectPRN\Repositoires\obj\Debug\net9.0\Repositoires.sourcelink.json

@@ -42,11 +42,6 @@ namespace Models.Courses
         [Column("student_count")]
         public int? StudentCount { get; set; }
 
-        [Required]
-        [ForeignKey("Instructor")]
-        [Column("instructor_id")]
-        public Guid InstructorId { get; set; }
-
         [Column("requirements")]
         public string? Requirements { get; set; }
 
@@ -66,5 +61,7 @@ namespace Models.Courses
         // Navigation properties
         public virtual ICollection<CourseCertificate> CourseCertificates { get; set; } = new List<CourseCertificate>();
         public virtual ICollection<UserCourseEnrollment> UserCourseEnrollments { get; set; } = new List<UserCourseEnrollment>();
+        public virtual ICollection<Lesson> Lessons { get; set; } = new List<Lesson>();
+
     }
 }

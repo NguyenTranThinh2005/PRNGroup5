@@ -22,7 +22,7 @@ namespace Models.Users
         public Guid UserId { get; set; }
 
         [Required]
-        [ForeignKey("Lesson")] // Changed from Module to Lesson
+        [ForeignKey("Lesson")] 
         [Column("lesson_id")]
         public Guid LessonId { get; set; }
 

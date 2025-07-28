@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "ProjectPRN\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "Models\BusinessLogic.csproj", "{201C5468-6D7E-46B1-BC67-AE9BF37084CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "Repository\DataAccess.csproj", "{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "Repository\DataAccessLayer.csproj", "{65EE5884-FBDF-4012-8235-EB7EFDCA0AD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{40373080-FD77-48AE-A300-26441B30ECAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositoires\Repositories.csproj", "{B028EE56-3A4D-46AE-AA98-774DB91EB20B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{40373080-FD77-48AE-A300-26441B30ECAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40373080-FD77-48AE-A300-26441B30ECAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40373080-FD77-48AE-A300-26441B30ECAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B028EE56-3A4D-46AE-AA98-774DB91EB20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B028EE56-3A4D-46AE-AA98-774DB91EB20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B028EE56-3A4D-46AE-AA98-774DB91EB20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B028EE56-3A4D-46AE-AA98-774DB91EB20B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

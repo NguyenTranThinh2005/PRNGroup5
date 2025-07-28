@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Models\BusinessLogic.csproj" />
+    <ProjectReference Include="..\Repositoires\Repositories.csproj" />
   </ItemGroup>
 
 </Project>

@@ -29,9 +29,6 @@ namespace Models.Quizzes
         [Column("description")]
         public string? Description { get; set; }
 
-        [Column("total_questions")]
-        public int? TotalQuestions { get; set; }
-
         [Column("passing_score")]
         public float? PassingScore { get; set; }
 

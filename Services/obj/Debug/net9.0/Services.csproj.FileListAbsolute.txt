@@ -1,0 +1,6 @@
+D:\FPTU\SemesterV\ProjectPRN\Services\obj\Debug\net9.0\Services.csproj.AssemblyReference.cache
+D:\FPTU\SemesterV\ProjectPRN\Services\obj\Debug\net9.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\SemesterV\ProjectPRN\Services\obj\Debug\net9.0\Services.AssemblyInfoInputs.cache
+D:\FPTU\SemesterV\ProjectPRN\Services\obj\Debug\net9.0\Services.AssemblyInfo.cs
+D:\FPTU\SemesterV\ProjectPRN\Services\obj\Debug\net9.0\Services.csproj.CoreCompileInputs.cache
+D:\FPTU\SemesterV\ProjectPRN\Services\obj\Debug\net9.0\Services.sourcelink.json

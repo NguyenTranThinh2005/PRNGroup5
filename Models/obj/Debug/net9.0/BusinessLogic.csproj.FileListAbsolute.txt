@@ -1,0 +1,12 @@
+D:\FPTU\SemesterV\ProjectPRN\Models\bin\Debug\net9.0\BusinessLogic.deps.json
+D:\FPTU\SemesterV\ProjectPRN\Models\bin\Debug\net9.0\BusinessLogic.dll
+D:\FPTU\SemesterV\ProjectPRN\Models\bin\Debug\net9.0\BusinessLogic.pdb
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\BusinessLogic.AssemblyInfo.cs
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\BusinessLogic.sourcelink.json
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\BusinessLogic.dll
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\refint\BusinessLogic.dll
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\BusinessLogic.pdb
+D:\FPTU\SemesterV\ProjectPRN\Models\obj\Debug\net9.0\ref\BusinessLogic.dll

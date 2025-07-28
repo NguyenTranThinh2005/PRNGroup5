@@ -1,0 +1,5 @@
+D:\FPTU\SemesterV\ProjectPRN\ProjectPRN\obj\Debug\net9.0-windows\Presentation.csproj.AssemblyReference.cache
+D:\FPTU\SemesterV\ProjectPRN\ProjectPRN\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\FPTU\SemesterV\ProjectPRN\ProjectPRN\obj\Debug\net9.0-windows\App.g.cs
+D:\FPTU\SemesterV\ProjectPRN\ProjectPRN\obj\Debug\net9.0-windows\Presentation_MarkupCompile.cache
+D:\FPTU\SemesterV\ProjectPRN\ProjectPRN\obj\Debug\net9.0-windows\Presentation_MarkupCompile.lref

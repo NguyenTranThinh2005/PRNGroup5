@@ -41,6 +41,5 @@ namespace Models.Surveys
         // Navigation property
         public virtual ICollection<SurveyQuestion> SurveyQuestions { get; set; } = new List<SurveyQuestion>();
         public virtual ICollection<UserSurveyResponse> UserSurveyResponses { get; set; } = new List<UserSurveyResponse>();
-        public virtual ICollection<SurveyCourseRecommendation> SurveyCourseRecommendations { get; set; } = new List<SurveyCourseRecommendation>();
     }
 }

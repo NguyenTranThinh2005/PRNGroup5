@@ -14,6 +14,7 @@ using Models.Users;
 using Models.Surveys;
 using Models.Courses;
 using Models.Quizzes;
+using Microsoft.Extensions.Configuration;
 
 
 namespace DrugPreventionSystem.DataAccess.Context
@@ -27,16 +28,12 @@ namespace DrugPreventionSystem.DataAccess.Context
         // DbSets
         public DbSet<Role> Roles { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<UserProfile> UserProfiles { get; set; }
-        public DbSet<Consultant> Consultants { get; set; }
         public DbSet<Survey> Surveys { get; set; } = null!;
         public DbSet<SurveyQuestion> SurveyQuestions { get; set; } = null!;
         public DbSet<SurveyOption> SurveyOptions { get; set; } = null!;
         public DbSet<UserSurveyResponse> UserSurveyResponses { get; set; } = null!;
         public DbSet<UserSurveyAnswer> UserSurveyAnswers { get; set; } = null!;
-        public DbSet<Instructor> Instructors { get; set; } = null!;
         public DbSet<Course> Courses { get; set; } = null!;
-        public DbSet<CourseWeek> CourseWeeks { get; set; } = null!;
         public DbSet<Lesson> Lessons { get; set; } = null!;
         public DbSet<LessonResource> LessonResources { get; set; } = null!;
         public DbSet<Quiz> Quizzes { get; set; } = null!;
@@ -47,11 +44,23 @@ namespace DrugPreventionSystem.DataAccess.Context
         public DbSet<UserQuizAnswer> UserQuizAnswers { get; set; } = null!;
         public DbSet<UserModuleQuizResult> UserModuleQuizResults { get; set; } = null!;
         public DbSet<CourseCertificate> CourseCertificates { get; set; } = null!;
-        public DbSet<SurveyCourseRecommendation> SurveyCourseRecommendations { get; set; } = null!;
-        public DbSet<UserResponseCourseRecommendation> UserResponseCourseRecommendations { get; set; } = null!;
         public DbSet<UserCourseEnrollment> UserCourseEnrollments { get; set; } = null!;
-        public DbSet<ProgramParticipant> ProgramParticipants { get; set; } = null!;
-        public DbSet<ProgramFeedback> ProgramFeedbacks { get; set; } = null!;
+
+
+        private string GetConnectionString()
+        {
+            IConfiguration configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", true, true).Build();
+            return configuration["ConnectionStrings:DefaultConnectionString"];
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(GetConnectionString());
+        }
+
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -62,17 +71,6 @@ namespace DrugPreventionSystem.DataAccess.Context
                 .WithMany(r => r.Users)
                 .HasForeignKey(u => u.RoleId)
                 .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder.Entity<UserProfile>()
-                .HasOne(up => up.User)
-                .WithOne(u => u.UserProfile)
-                .HasForeignKey<UserProfile>(up => up.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
-            modelBuilder.Entity<Consultant>()
-                .HasOne(c => c.User)
-                .WithOne(u => u.Consultant)
-                .HasForeignKey<Consultant>(c => c.UserId)
-                .OnDelete(DeleteBehavior.Cascade);
 
             // Configure indexes
             modelBuilder.Entity<User>()
@@ -126,26 +124,6 @@ namespace DrugPreventionSystem.DataAccess.Context
                 .WithMany(so => so.UserSurveyAnswers)
                 .HasForeignKey(usa => usa.OptionId)
                 .OnDelete(DeleteBehavior.Restrict);
-            // Instructor có nhiều Courses
-            modelBuilder.Entity<Course>()
-                .HasOne(c => c.Instructor)
-                .WithMany(i => i.Courses)
-                .HasForeignKey(c => c.InstructorId)
-                .OnDelete(DeleteBehavior.Restrict); // Không xóa Instructor nếu còn Course
-
-            // Course có nhiều CourseWeeks
-            modelBuilder.Entity<CourseWeek>()
-                .HasOne(cw => cw.Course)
-                .WithMany(c => c.CourseWeeks)
-                .HasForeignKey(cw => cw.CourseId)
-                .OnDelete(DeleteBehavior.Cascade); // Khi xóa Course, Weeks cũng bị xóa
-
-            // CourseWeek có nhiều Lessons
-            modelBuilder.Entity<Lesson>()
-                .HasOne(l => l.CourseWeek)
-                .WithMany(cw => cw.Lessons)
-                .HasForeignKey(l => l.WeekId)
-                .OnDelete(DeleteBehavior.Cascade); // Khi xóa Week, Lessons cũng bị xóa
 
             // Lesson có nhiều LessonResources
             modelBuilder.Entity<LessonResource>()
@@ -160,6 +138,10 @@ namespace DrugPreventionSystem.DataAccess.Context
                 .WithOne(l => l.Quiz)
                 .HasForeignKey<Quiz>(q => q.LessonId)
                 .OnDelete(DeleteBehavior.Cascade); // Khi xóa Lesson, Quiz cũng bị xóa
+
+            modelBuilder.Entity<Quiz>()
+                .HasIndex(q => q.LessonId)
+                .IsUnique();
 
             // Quiz có nhiều QuizQuestions
             modelBuilder.Entity<QuizQuestion>()
@@ -235,32 +217,6 @@ namespace DrugPreventionSystem.DataAccess.Context
                 .HasForeignKey(cc => cc.CourseId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-
-            // Cấu hình Mối quan hệ cho Đề xuất khóa học từ khảo sát
-            modelBuilder.Entity<SurveyCourseRecommendation>()
-                .HasOne(scr => scr.Survey)
-                .WithMany(s => s.SurveyCourseRecommendations)
-                .HasForeignKey(scr => scr.SurveyId)
-                .OnDelete(DeleteBehavior.Cascade); // Khi Survey bị xóa, các quy tắc đề xuất cũng bị xóa
-
-            modelBuilder.Entity<SurveyCourseRecommendation>()
-                .HasOne(scr => scr.Course)
-                .WithMany(c => c.SurveyCourseRecommendations)
-                .HasForeignKey(scr => scr.CourseId)
-                .OnDelete(DeleteBehavior.Restrict); // Không xóa Course nếu còn được đề xuất trong quy tắc
-
-            modelBuilder.Entity<UserResponseCourseRecommendation>()
-                .HasOne(urcr => urcr.UserSurveyResponse)
-                .WithMany(usr => usr.UserResponseCourseRecommendations) // Cần thêm Navigation Property này vào UserSurveyResponse
-                .HasForeignKey(urcr => urcr.ResponseId)
-                .OnDelete(DeleteBehavior.Cascade); // Khi UserSurveyResponse bị xóa, các đề xuất liên quan cũng bị xóa
-
-            modelBuilder.Entity<UserResponseCourseRecommendation>()
-                .HasOne(urcr => urcr.Course)
-                .WithMany(c => c.UserResponseCourseRecommendations)
-                .HasForeignKey(urcr => urcr.CourseId)
-                .OnDelete(DeleteBehavior.Restrict); // Không xóa Course nếu đã được đề xuất cho người dùng
-
             modelBuilder.Entity<UserCourseEnrollment>()
                 .Property(e => e.Status)
                 .HasConversion<string>(); // Lưu enum dưới dạng chuỗi trong DB
@@ -284,69 +240,6 @@ namespace DrugPreventionSystem.DataAccess.Context
                 .HasForeignKey(uce => uce.CourseId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // CommunityProgram và ProgramParticipant (Một chương trình có nhiều người tham gia)
-            modelBuilder.Entity<CommunityProgram>()
-                .HasMany(cp => cp.ProgramParticipants)
-                .WithOne(pp => pp.CommunityProgram)
-                .HasForeignKey(pp => pp.ProgramId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            // User và ProgramParticipant (Một người dùng có thể tham gia nhiều chương trình)
-            modelBuilder.Entity<User>()
-                .HasMany(u => u.ProgramParticipants)
-                .WithOne(pp => pp.User)
-                .HasForeignKey(pp => pp.UserId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            // CommunityProgram và ProgramFeedback (Một chương trình có nhiều feedback)
-            modelBuilder.Entity<CommunityProgram>()
-                .HasMany(cp => cp.ProgramFeedbacks)
-                .WithOne(pf => pf.CommunityProgram)
-                .HasForeignKey(pf => pf.ProgramId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            // User và ProgramFeedback (Một người dùng có thể gửi nhiều feedback)
-            modelBuilder.Entity<User>()
-                .HasMany(u => u.ProgramFeedbacks)
-                .WithOne(pf => pf.User)
-                .HasForeignKey(pf => pf.UserId)
-                .OnDelete(DeleteBehavior.Restrict); // Không xóa user khi xóa feedback của họ
-
-            // TimeSlot configurations
-            modelBuilder.Entity<TimeSlot>(entity =>
-            {
-                entity.HasIndex(ts => new { ts.ConsultantId, ts.SlotDate, ts.StartTime })
-                      .IsUnique();
-
-                entity.HasOne(ts => ts.Consultant)
-                      .WithMany(c => c.TimeSlots)
-                      .HasForeignKey(ts => ts.ConsultantId)
-                      .OnDelete(DeleteBehavior.Restrict);
-            });
-
-            // Appointment configurations
-            modelBuilder.Entity<Appointment>(entity =>
-            {
-                entity.HasOne(a => a.User)
-                      .WithMany(u => u.Appointments)
-                      .HasForeignKey(a => a.UserId)
-                      .OnDelete(DeleteBehavior.Restrict);
-
-                entity.HasOne(a => a.Consultant)
-                      .WithMany(c => c.Appointments)
-                      .HasForeignKey(a => a.ConsultantId)
-                      .OnDelete(DeleteBehavior.Restrict);
-
-                entity.HasOne(a => a.TimeSlot)
-                      .WithOne(ts => ts.Appointment)
-                      .HasForeignKey<Appointment>(a => a.TimeSlotId)
-                      .IsRequired()
-                      .OnDelete(DeleteBehavior.Restrict);
-
-                entity.HasIndex(a => a.TimeSlotId)
-                      .IsUnique();
-            });
-
             // Seed initial data
             SeedData(modelBuilder);
         }
@@ -360,55 +253,6 @@ namespace DrugPreventionSystem.DataAccess.Context
                 new Role { RoleId = 3, RoleName = "Staff", Description = "Staff Member" },
                 new Role { RoleId = 4, RoleName = "Consultant", Description = "Professional Consultant" },
                 new Role { RoleId = 5, RoleName = "Member", Description = "Registered Member" }
-            );
-
-            var hashedPassword = PasswordHasher.HashPassword("12345");
-            // Seed Users
-            modelBuilder.Entity<User>().HasData(
-                new User
-                {
-                    UserId = Guid.NewGuid(), // Tạo GUID mới
-                    Username = "admin_user",
-                    Email = "admin@example.com",
-                    PasswordHash = hashedPassword,
-                    RoleId = 1, // Admin role
-                    IsActive = true,
-                    EmailVerified = true,
-                    CreatedAt = DateTime.Now
-                },
-                new User
-                {
-                    UserId = Guid.NewGuid(), // Tạo GUID mới
-                    Username = "manager_user",
-                    Email = "manager@example.com",
-                    PasswordHash = hashedPassword,
-                    RoleId = 2, // Manager role
-                    IsActive = true,
-                    EmailVerified = true,
-                    CreatedAt = DateTime.Now
-                },
-                new User
-                {
-                    UserId = Guid.NewGuid(), // Tạo GUID mới
-                    Username = "staff_user",
-                    Email = "staff@example.com",
-                    PasswordHash = hashedPassword,
-                    RoleId = 3, // Staff role
-                    IsActive = true,
-                    EmailVerified = true,
-                    CreatedAt = DateTime.Now
-                },
-                new User
-                {
-                    UserId = Guid.NewGuid(), // Tạo GUID mới
-                    Username = "consultant_user",
-                    Email = "consultant@example.com",
-                    PasswordHash = hashedPassword,
-                    RoleId = 4, // Consultant role
-                    IsActive = true,
-                    EmailVerified = true,
-                    CreatedAt = DateTime.Now
-                }
             );
         }
     }

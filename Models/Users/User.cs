@@ -30,8 +30,8 @@ namespace Models.Users
 
         [Required]
         [MaxLength(255)]
-        [Column("password_hash")]
-        public string PasswordHash { get; set; } = string.Empty;
+        [Column("password")]
+        public string Password { get; set; } = string.Empty;
 
         [ForeignKey("Role")]
         [Column("role_id")]
@@ -49,18 +49,13 @@ namespace Models.Users
         [Column("updated_at")]
         public DateTime? UpdatedAt { get; set; }
 
-        [Column("last_login")]
-        public DateTime? LastLogin { get; set; }
-
         // Navigation properties
         public virtual Role Role { get; set; } = null!;
-        public virtual UserProfile? UserProfile { get; set; }
         public virtual ICollection<UserSurveyResponse> UserSurveyResponses { get; set; } = new List<UserSurveyResponse>();
         public virtual ICollection<UserLessonProgress> UserLessonProgresses { get; set; } = new List<UserLessonProgress>();
         public virtual ICollection<UserQuizAnswer> UserQuizAnswers { get; set; } = new List<UserQuizAnswer>();
         public virtual ICollection<UserModuleQuizResult> UserModuleQuizResults { get; set; } = new List<UserModuleQuizResult>();
         public virtual ICollection<CourseCertificate> CourseCertificates { get; set; } = new List<CourseCertificate>();
         public virtual ICollection<UserCourseEnrollment> UserCourseEnrollments { get; set; } = new List<UserCourseEnrollment>();
-        public virtual ICollection<ProgramParticipant> ProgramParticipants { get; set; } = new List<ProgramParticipant>();
     }
 }

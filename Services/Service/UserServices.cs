@@ -5,6 +5,8 @@ using System.Data;
 using System.Threading.Tasks;
 using DrugPreventionSystem.DataAccess.Models;
 using Models.Users;
+using Repositories.Interface.UserRepo;
+using Services.Interfaces;
 
 namespace Services.Implementations
 {

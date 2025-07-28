@@ -19,6 +19,12 @@ namespace DrugPreventionSystem.DataAccess.Models
         public Guid LessonId { get; set; } = Guid.NewGuid();
 
         [Required]
+        [ForeignKey("Course")]
+        [Column("course_id")]
+        public Guid CourseId { get; set; }
+
+
+        [Required]
         [MaxLength(255)]
         [Column("title")]
         public string Title { get; set; } = string.Empty;
@@ -41,9 +47,13 @@ namespace DrugPreventionSystem.DataAccess.Models
         [Column("created_at")]
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
+        [Column("updated_at")]
+        public DateTime? UpdatedAt { get; set; }
+
         // Navigation properties
         public virtual ICollection<LessonResource> LessonResources { get; set; } = new List<LessonResource>();
         public virtual Quiz? Quiz { get; set; } // Một bài học có thể có một Quiz
+        public virtual Course Course { get; set; } = null!;
         public virtual ICollection<PracticeExercise> PracticeExercises { get; set; } = new List<PracticeExercise>();
         public virtual ICollection<UserLessonProgress> UserLessonProgresses { get; set; } = new List<UserLessonProgress>();
         public virtual ICollection<UserModuleQuizResult> UserModuleQuizResults { get; set; } = new List<UserModuleQuizResult>();
